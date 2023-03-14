@@ -24,17 +24,73 @@
 /* Add Your Declarations and Function Comments here */ 
 
 /**
- * @brief <Finds the mean of the array>
+ * @brief <Prints out the elements in the array>
  *
- * <Calculates the mean of the array using a for loop>
+ * <Prints out the elements of an array using a for loop>
  *
- * @param <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param <myArray> <Array of elements to be printed out>
  *
- * @return <Add Return Informaiton here>
+ * @return <List of array members>
  */
+void print_array();
 
+/**
+ * @brief <Sorts the array in ascending order>
+ *
+ * <Sorts an array using bubble sort and a for loop>
+ *
+ * @param <myArray> <Array of elements to be sorted>
+ *
+ * @return <List of sorted array members>
+ */
+void sort_array();
+
+/**
+ * @brief <Finds the median of a sorted array>
+ *
+ * <Finds the median of a sorted array whether it has an even or odd number of members>
+ *
+ * @param <myArray> <Array of elements to be sorted>
+ * @param <n> <Number of elements in the array>
+ *
+ * @return <Median of the array>
+ */
+void find_median();
+
+/**
+ * @brief <Finds the mean of an array>
+ *
+ * <Finds the mean of an array>
+ *
+ * @param <myArray> <Array of elements to be sorted>
+ * @param <n> <Number of elements in the array>
+ *
+ * @return <Mean of the array>
+ */
+void find_mean();
+
+/**
+ * @brief <Finds the maximum number in an array>
+ *
+ * <Finds the maximum number in an array using a for loop>
+ *
+ * @param <myArray> <Array of numbers>
+ * @param <n> <Number of elements in the array>
+ *
+ * @return <Maximum number of the array>
+ */
+void find_minimum();
+
+/**
+ * @brief <Finds the minimum number in an array>
+ *
+ * <Finds the minimum number in an array using a for loop>
+ *
+ * @param <myArray> <Array of numbers>
+ * @param <n> <Number of elements in the array>
+ *
+ * @return <Minimum number of the array>
+ */
+void find_minimum();
 
 #endif /* __STATS_H__ */
